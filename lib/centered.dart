@@ -9,8 +9,8 @@ class Centered extends StatelessWidget{
                 child:Text(
                   text,
                 style: const TextStyle(
-                  color: Color.fromARGB(99, 240, 240, 240),
-                  fontSize: 30,
+                  color: Colors.white,
+                  fontSize: 34,
                 )),
                 );
   }

@@ -14,12 +14,15 @@ class GradientContainer extends StatelessWidget{
                   end: endAlignment,
 
                   colors: <Color>[
-                    Color.fromARGB(199, 168, 23, 204),
-                    Color.fromARGB(243, 24, 74, 255)
+                    Color.fromARGB(255, 26, 2, 80),
+                    Color.fromARGB(255, 9, 1, 24)
                   ]
                 )
               ),
-              child: Centered('Welcome ITEC 315')
+              child: Center(
+                child: Image.asset('assets/images/dice-1.png',  
+                width: 200,),
+              ),
             );
   }
 
